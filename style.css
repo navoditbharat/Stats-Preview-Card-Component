@@ -2,40 +2,35 @@ html{
     font-size: 15px;
 }
 
+body{
+    margin: 0px;
+}
 .banner-area{
-    width: 95%;
-    margin: auto;
     background-color: hsl(233, 47%, 7%);
 }
-
-
 .main-area{
-    padding: 1rem;
-    width: 80%;
-    margin: 100px auto 0px;
+    width: 75%;
+    padding: 5rem;
+    margin: auto;
 }
+
 
 .banner-area .main-area  .about-text{
     background-color: hsl(244, 38%, 16%);
-    padding: 5rem 4rem;
-    text-align: center;
-    display: inline-block;
-    width: 37.787%;
+    padding: 5rem 6rem 4.2rem 3rem;
+    margin: 0;
 }
 .about-text .main-heading{
+    margin-top: 0px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
 }
-
-.insight{
+.about-text .main-heading .insight{
     color: hsl(277, 64%, 61%);
 }
-
-
 .about-text .main-heading , .about-text .stats{
     color: hsl(0, 0%, 100%);
 }
-
 .about-text .main-para{
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Inter', sans-serif;
@@ -46,7 +41,7 @@ html{
     display: inline-block;
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
-    padding: 20px;
+    padding: 1rem 2rem 1rem 0px;
 }
 
 .about-text .stat-info{
@@ -55,18 +50,21 @@ html{
 }
 
 .main-area .header-pic{
-    width: 50%;
-    display: inline-block;
+    background-color:hsl(277, 64%, 61%) ;
+    margin: 0;
 }
+
 
 .main-area .header-pic img{
+    height: 100%;
     width:100%;
+    opacity: 0.5;
 }
-
 
 
 .attribution {
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
 }
 .attribution a {
     color: hsl(228, 45%, 44%); 
