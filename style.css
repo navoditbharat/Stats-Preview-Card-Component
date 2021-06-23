@@ -13,20 +13,21 @@ body{
     padding: 5rem;
     margin: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
 }
 
 .banner-area .main-area .banner-child{
+    width: 50%;
     flex: 1 ;
-    padding: 1rem;
 }
 
-.banner-area .main-area  .about-text{
+.banner-area .main-area .about-text{
     background-color: hsl(244, 38%, 16%);
     padding: 5rem 6rem 4.2rem 3rem;
-    text-align: center;
+    /* text-align: center; */
     margin: 0;
+    width: 50%;
 }
 .about-text .main-heading{
     margin-top: 0px;
@@ -68,6 +69,24 @@ body{
     width:100%;
     opacity: 0.5;
 }
+
+
+
+@media all and (max-width : 1100px){
+
+    .banner-area .main-area{
+        flex-direction: column;
+    }
+
+    .banner-area .main-area .about-text{
+        padding: 0px;
+    }
+
+    .banner-area .main-area .about-text{
+        text-align: center;
+    }
+}
+
 
 
 .attribution {
