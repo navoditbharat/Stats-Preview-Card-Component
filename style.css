@@ -12,8 +12,15 @@ body{
     width: 75%;
     padding: 5rem;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
+.banner-area .main-area .banner-child{
+    flex: 1 ;
+    padding: 1rem;
+}
 
 .banner-area .main-area  .about-text{
     background-color: hsl(244, 38%, 16%);
