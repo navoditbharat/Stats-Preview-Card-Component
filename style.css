@@ -8,7 +8,7 @@ body{
 .banner-area{
     background-color: hsl(233, 47%, 7%);
 }
-.main-area{
+.banner-area .main-area{
     width: 75%;
     padding: 5rem;
     margin: auto;
@@ -74,16 +74,47 @@ body{
 
 @media all and (max-width : 1100px){
 
+
     .banner-area .main-area{
-        flex-direction: column;
+        flex-direction: column-reverse;
+        width: 80%;
+    }
+
+    .banner-area .main-area .about-text .main-heading{
+        font-size: large;
+    }
+    .banner-area .main-area .about-text .main-para{
+        font-size: medium;
     }
 
     .banner-area .main-area .about-text{
+        width: 100%;
         padding: 0px;
     }
 
+    .banner-area .about-text .main-heading{
+        padding: 1rem 1rem 0px 1rem;
+    }
+    .banner-area .main-area .main-para{
+        padding: 0rem 1rem;
+    }
+
+    .banner-area .main-area .about-text .stat-main{
+        padding: 0px 1rem;
+    }
+
+    .banner-area .main-area .header-pic{
+        width: 100%;
+    }
+
+
+
     .banner-area .main-area .about-text{
         text-align: center;
+    }
+
+    .attribution{
+        width: 70%;
     }
 }
 
